@@ -27,14 +27,33 @@ main {
     background-color: #eeeeee;
 }
 
-#h2 {
+
+article {
+    position:relative;
+    display:inline-block;
+}
+
+figure {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.titulo {
+    color:beige;
+    position:absolute;
     font-family: "Baloo 2";
     font-weight: 900;
     font-size: 32px;
+    bottom:20%;
+    left:2%;
 }
 
-p {
+.texto {
     font-family: "Nunito";
+    position:absolute;
     font-weight: 500;
     font-size: 24px;
+    bottom:10%;
+    left:2%;
 }

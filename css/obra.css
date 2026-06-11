@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+header {
+    background-color: #979BFC;
+}
+
+#nav-esquerda {
+    background-color: #979BFC;
+    font-family: "Baloo 2";
+    font-weight: 900;
+    font-size: 32px;
+}
+
+#nav-direita {
+    background-color: #9d9d9d;
+    font-family: "Source Sans 3";
+    font-weight: 700;
+    font-size: 36px;
+}
+
+main {
+    background-color: #eeeeee;
+}
+
+#h2 {
+    font-family: "Baloo 2";
+    font-weight: 900;
+    font-size: 32px;
+}
+
+p {
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#tags {
+    color: #4348BF;
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 20px;
+}
