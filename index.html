@@ -9,76 +9,85 @@
 <body>
     <header>
         <a href="index.html">
-            <img src="imagens/logo.png" alt="GIBINA" title="Inicio">
+            <img id="logo" src="imagens/logo.png" alt="GIBINA" title="Inicio">
         </a>
         <form>
             <input type="text" id="pesquisa"/>
-            <button type="button" id="menu">Menu</button>
         </form>
-        <img src="imagens/logo.png" alt="GIBINA">
+            
+        <img src="imagens/objetos/menu-direito.png" alt="Menu lateral" title="Menu lateral">
     </header>
-    <nav id="nav-esquerda">
-        <ul>
-            <li><a href="obras.html">Obras</a></li>
-            <li><a href="autores.html">Autores</a></li>
-            <li><a href="magnum-opus.html">Magnum Opus</a></li>
-        </ul>
-    </nav>
-    <nav id="nav-direita">
-        <ul>
-            <li>Obra do mês</li>
-            <li>Autor do mês</li>
-            <li>Novidade do Mês</li>
-        </ul>
-    </nav>
-    <main>
-        <article>
-            <figure>
-                <a href="agua-com-sal.html">
-                    <img src="imagens/obras/agua-com-sal-capa.PNG" alt="Água com Sal">
-                </a>
-                <figcaption class="titulo">Obra1</figcaption>
-                <figcaption class="texto">texto...</figcaption>
-            </figure>
-        </article>
 
-        <hr>
-
-        <section id="autores">
+    <div id="corpo">
+        <nav id="nav-esquerda">
+            <ul>
+                <li><a href="obras.html">Obras</a></li>
+                <li><a href="autores.html">Autores</a></li>
+                <li><a href="magnum-opus.html">Magnum Opus</a></li>
+            </ul>
+        </nav>
+        
+        <main>
             <article>
-                <img src="imagens/obras/obra1.pgn" alt="Água com sal">
-                <h2>Autor 1</h2>
+                <figure>
+                    <a href="agua-com-sal.html">
+                        <img class="imagem" src="imagens/obras/agua-com-sal-cartaz.jpg" alt="Água com Sal">
+                    </a>
+                </figure>
+                <h2>Água com Sal</h2>
+                <p>Uma menina andava bebendo muita água com sal até o momento em que ela decidiu que iria parar com isso. Sua estratégia era bastante simples, se isolar no meio do oceano</p>
             </article>
 
+            <section id="autores">
+                <article>
+                    <figure>
+                        <a href="laerte.html">
+                            <img class="imagem" src="imagens/autores/laerte.jpg" alt="Água com sal">
+                        </a>
+                        <figcaption class="titulo">Laerte Coutinho</figcaption>
+                    </figure>
+                </article>
+
+                <article>
+                    <figure>
+                        <a href="raoni-marquis.html">
+                            <img class="imagem"  src="imagens/autores/raoni-marqs.jpg" alt="Água com sal">
+                        </a>
+                        <figcaption class="titulo">Raoni Marqs</figcaption>
+                    </figure>
+                </article>
+            </section>
+
             <article>
-                <img src="imagens/obras/obra1.pgn" alt="Água com sal">
-                <h2>Autor 2</h2>
+                <figure>
+                    <a href="domnic-e-o-corvo.html">
+                        <img  class="imagem" src="imagens/obras/domnic-e-o-corvo-misterioso-cartaz.png" alt="Domnic e o Corvo">
+                    </a>
+                </figure>
+                <h2>Água com Sal</h2>
+                <p>Uma menina andava bebendo muita água com sal até o momento em que ela decidiu que iria parar com isso. Sua estratégia era bastante simples, se isolar no meio do oceano</p>
             </article>
-        </section>
 
-        <hr>
+            <hr>
 
-        <article>
-            <figure>
-                <a href="domnic-e-o-corvo.html">
-                    <img src="imagens/obras/domnic-capa.PNG" alt="Domnic e o Corvo">
-                </a>
-                <figcaption class="titulo">Obra2</figcaption>
-                <figcaption class="texto">texto...</figcaption>
-            </figure>
-        </article>
+            <article>
+                <figure>
+                    <a href="bando-de-dois.html">
+                        <img class="imagem"  src="imagens/obras/bando-de-dois-cartaz.webp" alt="Domnic e o Corvo">
+                    </a>
+                </figure>
+                <h2>Água com Sal</h2>
+                <p>Uma menina andava bebendo muita água com sal até o momento em que ela decidiu que iria parar com isso. Sua estratégia era bastante simples, se isolar no meio do oceano</p>
+            </article>
+        </main>
 
-        <hr>
-
-        <article>
-            <figure>
-                <a href="domnic-e-o-corvo.html">
-                    <img src="imagens/obras/domnic-capa.PNG" alt="Domnic e o Corvo">
-                </a>
-                <figcaption class="titulo">Obra2</figcaption>
-                <figcaption class="texto">texto...</figcaption>
-            </figure>
-        </article>
-    </main>
+        <nav id="nav-direita">
+            <ul>
+                <li>Obra do mês</li>
+                <li>Autor do mês</li>
+                <li>Novidade do Mês</li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>
