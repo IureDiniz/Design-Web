@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+#corpo {
+    display: flex;
+}
+
+header {
+    background-color: #a2a4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+header img {
+    margin-right:5%;
+}
+
+header #logo {
+    position: relative;
+    top:5%;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    margin-left:5%;
+}
+
+header input {
+    position: relative;
+    top:20%;
+    padding: 20px;
+    width: 1200px;
+    height: 25px;
+}
+
+main {
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+
+article {
+    position:relative;
+    display:inline-block;
+    width: 100%;
+}
+
+figure {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 10%;
+}
+
+article h2 {
+    font-family: "Baloo 2";
+    font-weight: 900;
+    font-size: 42px;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 0.1%;
+}
+
+article p {
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 24px;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top: 1%;
+}
+
+article .imagem {
+    position: relative;
+    display: inline-block;
+}
+
+article .imagem img{
+    display: block;
+}
+
+article .imagem::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgba(0, 0, 0, 0.8)
+    );
+}
+
+#preto {
+    background-color: #3e3e3e;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    align-self: center;
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+}
+
+
+#preto h2 {
+    color: #ffffff;
+    font-family: "Baloo 2";
+    font-weight: 900;
+    font-size: 42px;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 0.1%;
+    text-align: center;
+}
+
+#preto p {
+    display: flex;
+    color: #ffffff;
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 24px;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 1%;
+    width: 50%;
+    text-align: justify;
+}
+
+#preto figure {
+    display: flex;
+}
+
+#preto a {
+    width: 70%;
+}
+#preto img {
+    width: 100%;
+    height: 100%;
+}
